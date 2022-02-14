@@ -49,7 +49,7 @@ Used `tf.data.Dataset` to boost training performance
 - [Binary IoU](https://github.com/Basars/basars-addons/blob/main/basars_addons/metrics/intersection_over_union.py)
     - Number of classes = 5 (default)
     - Threshold = 0.5
-    - Masked with [1, 0, 0, 0, 0] to ignore non-cancer area 
+    - Masked with [0, 1, 1, 1, 1] to ignore non-cancer area 
 
 ### Optimizer
 - SGD
