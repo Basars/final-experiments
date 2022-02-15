@@ -3,7 +3,7 @@
 ![video](https://github.com/Basars/final-experiments/blob/main/static/video.gif)
 
 ## Params
-**Pre-trained weights**: R50+ViT-B/16<br>
+**Pre-trained model**: [R50+ViT-B/16](https://github.com/google-research/vision_transformer) <br>
 **Input shape**: (224, 224, 3)<br>
 **Encoder trainable**: False<br>
 **Batch size**: 64<br>
