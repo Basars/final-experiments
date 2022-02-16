@@ -3,14 +3,14 @@
 ![video](https://github.com/Basars/final-experiments/blob/main/static/video.gif)
 
 ## Params
-**Pre-trained model**: [R50+ViT-B/16](https://github.com/google-research/vision_transformer) <br>
+**Pre-trained encoder**: [R50+ViT-B/16](https://github.com/google-research/vision_transformer) <br>
 **Input shape**: (224, 224, 3)<br>
 **Encoder trainable**: False<br>
 **Batch size**: 64<br>
 **Epochs**: 2,190
 
 ## Model
-**Input Image (224, 224, 3)** → Vision Transformer (224, 224, 16) → **Conv1x1 (224, 224, 5)**
+**Input Image (224, 224, 3)** → Vision Transformer + CUP (224, 224, 16) → **Conv1x1 (224, 224, 5)**
 
 **Total params**: 100,861,024<br>
 **Trainable params**: 7,409,632<br>
