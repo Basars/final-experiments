@@ -42,6 +42,10 @@ Used `tf.data.Dataset` to boost training performance
 
 ## Compile options
 
+### :warning: The Reasons of Bad Results
+> The results are hilariously bad, because we didn't know that we must use Focal Loss or Weighted CCE for imbalanced dataset.
+> Although we no longer have access to the GPU server, now we know that we could have better results.
+
 ### Loss
 - CCE * 0.5 + [Dice](https://github.com/Basars/basars-addons/blob/main/basars_addons/losses/dice.py) * 0.5
 
